@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-aop-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-beans-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-context-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-context-support-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-core-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-expression-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-instrument-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-instrument-tomcat-4.3.30.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-jcl-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-jdbc-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-jms-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-messaging-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-orm-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-oxm-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-test-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-tx-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-web-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-webmvc-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-webmvc-portlet-4.3.30.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/spring-websocket-6.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/asm-20041228.180559.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhils01/Downloads/JavaJAr/cglib-2.2.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
