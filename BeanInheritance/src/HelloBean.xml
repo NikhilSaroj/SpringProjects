@@ -1,0 +1,16 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+  <bean id="helloworld" class="com.tutorialspoint.HelloWorld">
+     <property name="message1" value="Hello World 1"></property>
+     <property name="message2" value="Hello World 2"></property>     
+  </bean>
+
+  <bean id="helloindia" class="com.tutorialspoint.HelloIndia" parent = "helloworld">
+     <property name="message1" value="Hello India"></property>
+     <!--<property name="message2" value="Namaste India"></property> -->      
+     <property name="message3" value="Namaste India 1"></property>          
+  </bean>
+ 
+</beans>			
