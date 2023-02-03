@@ -1,0 +1,47 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+
+ <bean name="collections" class="com.tutorialspoint.JavaCollection">
+  
+  <property name="BeanReferenceObj">
+     <ref bean="refbean"/>
+  </property>
+   
+  
+  <property name="addressSet">
+   <set>
+    <value>India</value>
+    <value>Pakistan</value>
+   </set>
+  </property>
+  
+  <property name="addressMap">
+   <map>
+    <entry key="1" value="India"/>
+    <entry key="2" value="Pakistan"/>
+   </map>   
+  </property>
+   
+  <property name="addressProps">
+   <props>
+    <prop key="one">India</prop>
+    <prop key="two">Pakistan</prop>
+   </props>   
+  </property>
+ 
+ </bean>
+ 
+ 
+ <bean name="refbean" class="com.tutorialspoint.BeanReference">
+ 
+   <property name="addressList" >
+        <list>
+          <value>India</value>
+          <value>Pakistan</value>
+        </list>    
+   </property>
+  
+ </bean>
+</beans>			
