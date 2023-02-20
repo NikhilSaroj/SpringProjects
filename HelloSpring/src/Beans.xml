@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
 			"https://www.springframework.org/dtd/spring-beans-2.0.dtd"> 
 			
-			<!-- Go to spring-beans.jar file at line  36 you will get this line-->
+			<!-- Go to spring-beans.jar => beans.factory.xml => spring-beans.dtd file at line  36 you will get this line-->
 
 <!--
 <beans  xmlns = "http://www.springframework.org/schema/beans"
