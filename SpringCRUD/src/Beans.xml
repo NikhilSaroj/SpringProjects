@@ -1,0 +1,21 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+   <!-- Initialization for data source -->
+   <bean id="dataSource" 
+      class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
+      <property name = "driverClassName" value = "com.mysql.jdbc.Driver"/>
+      <property name = "url" value = "jdbc:mysql://localhost:3306/test"/>
+      <property name = "username" value = "root"/>
+      <property name = "password" value = "root"/>
+   </bean>
+
+   <!-- Definition for studentJDBCTemplate bean -->
+   <bean id = "studentJDBCTemplate" 
+      class = "com.tutorialspoint.StudentJDBCTemplate">
+      <property name = "dataSource" ref = "dataSource" />    
+   </bean>
+
+</beans>
